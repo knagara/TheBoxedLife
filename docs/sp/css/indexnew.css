@@ -1,0 +1,75 @@
+header{
+	margin-bottom:60px;
+}
+
+div.appTitle{
+	background:#0e113e;
+	width:80%;
+	height:50px;
+	text-align:center;
+}
+
+div.appTitle h2{
+	color:#f0f0f0;
+	font-size:180%;
+	font-weight:600;
+	/*text-shadow:-1px -1px 1px #ccc;*/
+	height:50px;
+	line-height:50px;
+	margin:0 0 0 0px;
+}
+
+div.appDescription{
+	background:#b5ac83;
+	width:100%;
+	margin:12px 0;
+}
+
+div.appDescription p{
+	padding:10px;
+	color:#1d1c1a;
+	font-size:120%;
+	font-weight:600;
+	text-align:left;
+}
+
+div.appDownload{
+	background:#0e113e;
+	width:60%;
+	height:30px;
+	text-align:center;
+	margin:0 0 8px auto;
+}
+
+div.appDownload a{
+	color:#f0f0f0;
+	font-size:130%;
+	font-weight:600;
+	/*text-shadow:-1px -1px 1px #ccc;*/
+	height:30px;
+	line-height:30px;
+	margin:0 0 0 0px;
+	text-decoration:none;
+	width:100%;
+}
+
+div.appDownload:hover{
+	background:#636168;
+}
+
+div.appDetail{
+	width:50%;
+}
+
+
+div.app{
+	margin: 0 0 60px 0;
+}
+
+/*
+	border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+	
+	text-shadow:1px 1px 0px #fff;
+*/

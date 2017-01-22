@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+
+/* 共通設定 */
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+	background:url(img/bg6.png);
+}
+
+body, img, p, h1, h2, h3, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a:link {
+	text-decoration:none;
+	color: #550102;
+}
+a:visited {
+	text-decoration:none;
+	color: #550102;
+}
+a:hover {
+	text-decoration:underline;
+	color: #a64747;
+}
+
+/* ヘッダー */
+#nav {
+	background:url(img/nav_bg.png);
+	height:60px;
+	text-align:center;
+	margin: 0 0 35px;
+}
+
+#navCenter{
+	width:780px;
+	margin:0 auto;
+	position:relative;
+	}
+
+#navCenter ul li a{
+	display:block;
+	float: left;
+	color:#e0e0e0;
+	font-size:110%;
+	padding:22px 20px 18px;
+	text-shadow: -1px -1px 0 #999;
+	font-family: 'Aldrich', sans-serif;
+}
+#navCenter ul li a:hover {
+	color:#ebe1b0;
+	text-shadow: -1px -1px 0 #333;
+	text-shadow: 1px 1px 0 #333;
+	text-decoration:none;
+	background:url(img/nav_bg_on.png);
+	background-repeat:repeat-x;
+	}
+	
+#navCenter ul li a#nav_cooksonia{
+	width:230px;
+	height:60px;
+	text-indent:-9999px;
+	background:url(img/cooksonia.png);
+	background-position:10px 6px;
+	background-repeat:no-repeat;
+	padding:0;
+}
+	
+#navCenter ul li#contactLink{
+	cursor:pointer;
+	}
+
+#navCenter p a {
+	display:block;
+	float: right;
+	color:#e0e0e0;
+	font-size:90%;
+	padding:25px 20px 18px;
+	text-shadow: -1px -1px 0 #999;
+	font-family: 'Aldrich', sans-serif;
+}
+
+#navCenter p a:hover{
+	color:#ebe1b0;
+	text-shadow: -1px -1px 0 #333;
+	text-shadow: 1px 1px 0 #333;
+	text-decoration:none;
+	background:url(img/nav_bg_on.png);
+	background-repeat:repeat-x;
+}
+	
+#wrapper{
+	width:1030px;
+	margin:0 auto;
+	}
+	
+/* コンタクトフォーム */
+/*
+            #contactForm
+            {
+            	height:320px;
+            	width:380px;
+				background:#795e40;
+            	display:none;
+				position:absolute;
+				top:60px;
+				left:370px;
+				z-index:9999;
+				text-align:left;
+            }
+            #contactForm fieldset
+            {
+            	padding:30px;
+            	border:none;
+            }      
+            #contactForm label
+            {
+            	display:block;
+            	color:#ffc400;
+            }      
+            #contactForm input[type=text]
+            {
+            	display:block;
+            	border:solid 1px #4d3a24;
+            	width:100%;
+            	margin-bottom:10px;
+            	height:24px;
+            }  
+            #contactForm textarea
+            {
+            	display:block;
+            	border:solid 1px #4d3a24;
+            	width:100%;
+            	margin-bottom:10px;
+            }  
+            #contactForm input[type=submit]
+            {
+            	background-color:#4d3a24;
+            	border:solid 1px #23150c;
+            	color:#fecd28;
+            	padding:5px;
+            }    
+			
+			#messageSent
+            {
+            	color:#ff9933;
+            	display:none;
+            } 
+*/
+
+
+/* フッター */
+footer p{
+	font-size:70%;
+}
+
+/* clearfix */
+
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.clearfix { display: inline-table; }
+* html .clearfix { height: 1%; }
+*+html .clearfix { height: 1%; }
+.clearfix { display: block; }
